@@ -13,7 +13,9 @@
     "dev": "vite",
     "build": "vite build",
     "check-types": "tsc --noEmit",
-    "generate-icons": "node scripts/generate-icons.mjs"
+    "generate-icons": "node scripts/generate-icons.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "react": "^18.2.0",
