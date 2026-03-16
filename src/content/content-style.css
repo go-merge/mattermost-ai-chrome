@@ -1,0 +1,42 @@
+/* AI button injected into Mattermost posts */
+.mm-ai-ext-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 8px;
+    margin-left: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #5d89ea;
+    background: rgba(93, 137, 234, 0.1);
+    border: 1px solid rgba(93, 137, 234, 0.3);
+    border-radius: 4px;
+    cursor: pointer;
+    line-height: 1.4;
+    transition: all 0.15s ease;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    vertical-align: middle;
+}
+
+.mm-ai-ext-btn:hover {
+    background: rgba(93, 137, 234, 0.2);
+    border-color: rgba(93, 137, 234, 0.5);
+    color: #4a73d1;
+}
+
+.mm-ai-ext-btn:active {
+    transform: scale(0.95);
+}
+
+.mm-ai-ext-btn--sent {
+    color: #3db887;
+    background: rgba(61, 184, 135, 0.1);
+    border-color: rgba(61, 184, 135, 0.3);
+}
+
+/* Range selection: highlight first selected post */
+.mm-ai-ext-range-start {
+    outline: 2px solid #5d89ea;
+    outline-offset: -2px;
+    border-radius: 4px;
+}
